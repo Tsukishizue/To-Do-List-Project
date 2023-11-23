@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <div class="groceryList-app">
+        <h2>Grocery List</h2>
+        <p>Browse by categories:</p>
+        <p> &middot <a href="https://www.fairprice.com.sg/category/bakery">Bakery</a> &middot; <a href="https://www.fairprice.com.sg/category/beauty--personal-care">Personal Care</a> &middot; <a href="https://www.fairprice.com.sg/category/dairy-chilled-eggs">Dairy & Eggs</a> &middot; <a href="https://www.fairprice.com.sg/category/drinks">Drinks</a> &middot; <a href="https://www.fairprice.com.sg/category/fruits-vegetables">Fruits & Veggies</a> &middot; <a href="https://www.fairprice.com.sg/category/meat-seafood">Meats</a> &middot; <a href="https://www.fairprice.com.sg/category/rice-noodles-cooking-ingredients">Carbs & Condiments</a> &middot; <a href="https://www.fairprice.com.sg/category/snacks--confectionery">Snacks</a> &middot; <a href="https://www.fairprice.com.sg/category/household">Cleaning</a></p>
+        <br/>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add item to buy">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- <li class="checked">Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li> -->
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
